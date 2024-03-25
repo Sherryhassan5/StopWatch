@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-color: black;
+    color: white;
+}
+.stopwatch{
+    width: 100vw;
+    text-align: center;
+    padding: 10rem 0px 10rem;
+    font-size: 2rem;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.display{
+    border: 1px solid white;
+    width: 20%;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.altBtn{
+    background-color: rgb(1, 75, 1);
+}
+.altBtn:hover{
+    background-color: rgb(2, 62, 2);
+}
+.resetBtn{
+    background-color: rgb(143, 46, 5);
+}
+.resetBtn:hover{
+    background-color: rgb(105, 35, 5);
+}
+
+
+@media (max-width : 685px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media (max-width : 430px){
+    html{
+        font-size: 16px;
+    }
+    .display{
+        width: 80%;
+    }
+}
